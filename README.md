@@ -47,6 +47,7 @@ Strengths of model:
         Based on strength of starting pitcher and lineup
             -roster changes and injuries taken into account if lineup known
         Trained based on inputs of previous seasons
+        
 Weaknesses:
     No Batter vs pitcher 
     Weather/ Location not taken into account 
