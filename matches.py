@@ -6,7 +6,7 @@ from datetime import datetime
 def get_matches():
     date = datetime.today().strftime('%Y-%m-%d')
 
-    url = "https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate=" + '2021-10-20' + "&endDate=" + date
+    url = "https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate=" + date + "&endDate=" + date
     page = requests.get(url)
     if page.status_code == 403:
         return None
